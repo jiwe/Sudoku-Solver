@@ -1,5 +1,7 @@
 #include "sudoku.h"
 
+const char POSSIBLE = 0x1FF;
+
 int ** createPuzzle() {
   int i, j;
   int matrix[9][9] = {
