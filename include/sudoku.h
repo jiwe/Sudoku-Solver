@@ -1,6 +1,10 @@
 #include <stdio.h>
 #include <stdlib.h>
 
+extern char POSSIBLE;
+extern int SIZE_ROWS;
+extern int SIZE_COLUMNS;
+
 typedef struct Box {
   struct Box *next;
 } Box;
