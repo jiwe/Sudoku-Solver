@@ -9,7 +9,7 @@ SOURCES = $(SRCDIR)*.c
 all: sudoku run clean
 
 sudoku:
-	$(CC) $(SOURCES) $(CFLAGS) -o $@
+	$(CC) -g $(SOURCES) $(CFLAGS) -o $@
 	
 run:
 	./sudoku
